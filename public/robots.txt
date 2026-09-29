@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kentiz-dergi.web.app/sitemap.xml

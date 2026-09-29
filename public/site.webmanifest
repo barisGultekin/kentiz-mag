@@ -1,0 +1,13 @@
+{
+  "name": "Kentiz Dergi",
+  "short_name": "Kentiz",
+  "lang": "tr",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#edf0f4",
+  "theme_color": "#edf0f4",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
