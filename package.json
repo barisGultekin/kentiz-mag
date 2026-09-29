@@ -1,0 +1,31 @@
+{
+  "name": "kentiz-mag",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "samples": "node scripts/make-samples.mjs"
+  },
+  "dependencies": {
+    "@portabletext/react": "^8.0.1",
+    "@portabletext/types": "^4.0.2",
+    "@sanity/client": "^8.9.0",
+    "page-flip": "^2.0.7",
+    "pdfjs-dist": "^6.3.289",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "pdf-lib": "^1.17.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}
