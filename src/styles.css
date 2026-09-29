@@ -140,9 +140,9 @@ main { flex: 1; }
 .reader { position: fixed; inset: 0; z-index: 1000; }
 .backdrop {
   position: absolute; inset: 0;
-  background: rgba(237, 240, 244, 0.5);
-  backdrop-filter: blur(22px) saturate(1.1);
-  -webkit-backdrop-filter: blur(22px) saturate(1.1);
+  background: rgba(237, 240, 244, 0.72);
+  backdrop-filter: blur(48px) saturate(1.1);
+  -webkit-backdrop-filter: blur(48px) saturate(1.1);
   animation: fade 420ms ease-out both;
 }
 .reader.is-out .backdrop { animation: fade 480ms ease-in reverse both; animation-delay: 120ms; }
